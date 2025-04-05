@@ -2,7 +2,7 @@
   "name": "snake-game",
   "version": "1.0.0",
   "scripts": {
-    "build": "if not exist public mkdir public && copy index.html public/ && copy style.css public/ && copy game.js public/"
+    "build": "mkdir -p public && cp index.html style.css game.js public/"
   },
   "dependencies": {}
 }
