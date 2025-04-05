@@ -7,14 +7,8 @@
     },
     {
       "src": "/.*",
-      "status": 404,
-      "dest": "/404.html"
-    }
-  ],
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "dest": "/index.html"
     }
   ]
+
 }
