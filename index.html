@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="经典贪吃蛇在线游戏，支持电脑和手机操作，具有本地最高分记录和移动端适配功能">
+    <meta name="keywords" content="贪吃蛇,经典游戏,在线游戏,HTML5游戏">
+    <meta property="og:title" content="经典贪吃蛇游戏">
+    <meta property="og:description" content="在线体验经典贪吃蛇游戏，支持跨设备游玩，快来挑战你的最高分！">
+    <meta property="og:image" content="snake-game.png">
+    <title>经典贪吃蛇游戏 | 在线怀旧小游戏</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div class="game-info">
+            <p>得分: <span id="score">0</span></p>
+            <button id="startBtn">开始游戏</button>
+            <p>使用方向键控制移动</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
