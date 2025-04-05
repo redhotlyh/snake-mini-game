@@ -2,7 +2,10 @@
   "name": "snake-game",
   "version": "1.0.0",
   "scripts": {
-    "build": "mkdir -p public && cp index.html style.css game.js public/"
+    "build": "mkdirp public && cpx 'index.html' public/ && cpx 'style.css' public/ && cpx 'game.js' public/"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "mkdirp": "^3.0.1"
+  }
 }
